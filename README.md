@@ -1,5 +1,5 @@
 <h1 align="center">
-  :robot: Reconhecimento de Objetos :robot:
+  :robot: Aplicação de Hand Pose :robot:
 </h1>
 
 <div align="center">
@@ -14,10 +14,10 @@
 <table border="0">
   <tr>
     <td align="center">
-      Essa aplicação trata-se de um detector de objetos utilzando a biblicoteca Tensorflow. O Objetivo é trazer novos métodos de reconhecimento utilizando o JavaScript e agregar novos conhecimentos.
+      Essa aplicação trata-se de um detector de Hand Pose utilzando a biblicoteca Tensorflow. O Objetivo é trazer novos métodos de reconhecimento utilizando o JavaScript e agregar novos conhecimentos.
     </td>
     <td align="center">
-      Imagem ilustrativa do reconhecimento de objetos.
+      Imagem ilustrativa do reconhecimento de hand pose.
       <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs40815-020-00825-w/MediaObjects/40815_2020_825_Fig1_HTML.jpg" alt="Imagem demonstrativa de reconhecimento de hand pose" />
     </td>
   </tr>
