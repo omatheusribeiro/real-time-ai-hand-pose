@@ -1,6 +1,4 @@
-<h1 align="center">
-  :robot: Aplicação de Hand Pose :robot:
-</h1>
+# :robot: Hand Pose Application :robot:
 
 <div align="center">
 
@@ -14,26 +12,26 @@
 <table border="0">
   <tr>
     <td align="center">
-      Essa aplicação trata-se de um detector de Hand Pose utilzando a biblicoteca Tensorflow. O Objetivo é trazer novos métodos de reconhecimento utilizando o JavaScript e agregar novos conhecimentos.
+      This application is a Hand Pose detector using the TensorFlow library. The goal is to bring new recognition methods using JavaScript and gain new knowledge.
     </td>
     <td align="center">
-      Imagem ilustrativa do reconhecimento de hand pose.
-      <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs40815-020-00825-w/MediaObjects/40815_2020_825_Fig1_HTML.jpg" alt="Imagem demonstrativa de reconhecimento de hand pose" />
+      Illustrative image of hand pose recognition.
+      <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs40815-020-00825-w/MediaObjects/40815_2020_825_Fig1_HTML.jpg" alt="Illustrative image of hand pose recognition" />
     </td>
   </tr>
 </table>
 
-## Tecnologias usadas
+## Technologies used
 
-- [ReactJs](https://pt-br.reactjs.org/)
-- [Tensorflow](https://pt-br.reactjs.org/)
+- [ReactJs](https://reactjs.org/)
+- [Tensorflow](https://www.tensorflow.org/)
 
 
-## Começo rápido
+## Quick start
 
-1. Fork do projeto
-2. Clonar o projeto utilizando `git clone git@github.com:<SEU-USUÁRIO>/real-time-ai-hand-pose.git`
-3. Instalar as dependências `npm install`
-4. Rodar o projeto utilizando `npm start`
+1. Fork the project
+2. Clone the project using `git clone git@github.com:<YOUR-USERNAME>/real-time-ai-hand-pose.git`
+3. Install dependencies `npm install`
+4. Run the project using `npm start`
 
-### Feito com :heart: para a incrível comunidade de open-source!
+### Made with :heart: for the awesome open-source community!
