@@ -1,4 +1,3 @@
-
 import React, { useRef } from "react";
 import * as tf from "@tensorflow/tfjs";
 import * as handpose from "@tensorflow-models/handpose";
@@ -10,15 +9,15 @@ function App() {
   const webcamRef = useRef(null);
   const canvasRef = useRef(null);
 
-  const carregarHandpose = async () => {
+  const loadHandpose = async () => {
     const net = await handpose.load();
-    console.log("Modelo Handpose carregado.");
+    console.log("Handpose model loaded.");
     setInterval(() => {
-      detector(net);
+      detect(net);
     }, 100);
   };
 
-  const detector = async (net) => {
+  const detect = async (net) => {
     if (
       typeof webcamRef.current !== "undefined" &&
       webcamRef.current !== null &&
@@ -42,7 +41,7 @@ function App() {
     }
   };
 
-  carregarHandpose();
+  loadHandpose();
 
   return (
     <div className="App">
@@ -56,7 +55,7 @@ function App() {
             left: 0,
             right: 0,
             textAlign: "center",
-            zindex: 9,
+            zIndex: 9,
             width: 640,
             height: 480,
           }}
@@ -71,7 +70,7 @@ function App() {
             left: 0,
             right: 0,
             textAlign: "center",
-            zindex: 9,
+            zIndex: 9,
             width: 640,
             height: 480,
           }}
