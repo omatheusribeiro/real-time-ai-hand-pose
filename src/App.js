@@ -4,7 +4,7 @@ import * as tf from "@tensorflow/tfjs";
 import * as handpose from "@tensorflow-models/handpose";
 import Webcam from "react-webcam";
 import "./App.css";
-import { desenhandoMaos } from "./utilitarios";
+import { drawHands } from "./utilities";
 
 function App() {
   const webcamRef = useRef(null);
@@ -38,7 +38,7 @@ function App() {
       console.log(hand);
 
       const ctx = canvasRef.current.getContext("2d");
-      desenhandoMaos(hand, ctx);
+      drawHands(hand, ctx);
     }
   };
 

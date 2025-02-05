@@ -31,7 +31,7 @@ const style = {
   20: { color: "gold", size: 6 },
 };
 
-export const desenhandoMaos = (predictions, ctx) => {
+export const drawHands = (predictions, ctx) => {
   if (predictions.length > 0) {
     predictions.forEach((prediction) => {
       const landmarks = prediction.landmarks;
