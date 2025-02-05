@@ -58,6 +58,3 @@ Contributions are welcome! Feel free to fork the project and submit pull request
 ## 📜 License
 This project is licensed under the BSD 3-Clause License.
 
-## 🔗 Repository
-[GitHub Repository](https://github.com/omatheusribeiro/real-time-ai-hand-pose) 🌐
-
