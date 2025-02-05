@@ -1,9 +1,6 @@
-
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
-
     window.location.hostname === '[::1]' ||
-
     window.location.hostname.match(
       /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
     )
@@ -11,7 +8,6 @@ const isLocalhost = Boolean(
 
 export function register(config) {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
-
     const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);
     if (publicUrl.origin !== window.location.origin) {
       return;
@@ -25,8 +21,7 @@ export function register(config) {
 
         navigator.serviceWorker.ready.then(() => {
           console.log(
-            'Este aplicativo da web está sendo servido em cache primeiro por um serviço ' +
-            'trabalhador.'
+            'This web application is being served cache-first by a service worker.'
           );
         });
       } else {
@@ -49,8 +44,7 @@ function registerValidSW(swUrl, config) {
           if (installingWorker.state === 'installed') {
             if (navigator.serviceWorker.controller) {
               console.log(
-                'Novo conteúdo está disponível e será usado quando todos ' +
-                'guias para esta página estão fechadas'
+                'New content is available and will be used when all tabs for this page are closed.'
               );
 
               // Execute callback
@@ -58,7 +52,7 @@ function registerValidSW(swUrl, config) {
                 config.onUpdate(registration);
               }
             } else {
-              console.log('O conteúdo é armazenado em cache para uso offline.');
+              console.log('Content is cached for offline use.');
 
               if (config && config.onSuccess) {
                 config.onSuccess(registration);
@@ -69,7 +63,7 @@ function registerValidSW(swUrl, config) {
       };
     })
     .catch(error => {
-      console.error('Erro durante o registro do service worker:', error);
+      console.error('Error during service worker registration:', error);
     });
 }
 
@@ -94,7 +88,7 @@ function checkValidServiceWorker(swUrl, config) {
     })
     .catch(() => {
       console.log(
-        'Nenhuma conexão de internet encontrada. O aplicativo está sendo executado no modo offline.'
+        'No internet connection found. The application is running in offline mode.'
       );
     });
 }
