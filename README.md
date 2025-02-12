@@ -10,7 +10,7 @@ This repository contains an implementation of:
 ## 📝 Description
 The objective of this application is to identify hand pose positions by leveraging the power of the **TensorFlow** library. The system reads the user's hand and identifies key movement points, providing an effective hand pose detection mechanism. The goal is to explore new recognition methods using **JavaScript** and to acquire new knowledge in the process.
 
-## 🏗️ Project Structure
+## 🏗️ Project Structure 
 ```
 real-time-ai-hand-pose
 ├── public/
